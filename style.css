@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #ff847b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color:  #e84a5f;  
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    color:  white;
+}
+
+.start-container {
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15rem;
+    border-radius: 5px;
+    background-color: #fecea8;
+}
+
+.start-container-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.start-button {
+    margin-top: 3.5rem;
+    height: 3rem;
+    width: 45%;
+    border: none;
+    border-radius: 5px;
+    background-color: #e84a5f; 
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.start-button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.quiz-container {
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.quiz-container-visible {
+    opacity: 1;
+    visibility: visible;
+    margin: auto;
+    width: 450px;
+    height: 215px;
+    margin-top: -10rem;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: #fecea8;
+    border-radius: 5px;
+}
+
+.question {
+    height: 3rem;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.question-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.choices-grid {
+    display: grid;
+    height: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+.choice-buttons {
+    height: 2rem;
+    color: white;
+    background-color: #e84a5f;  
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.choice-buttons:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.choice-button-selected {
+    border: 3px solid black;
+}
+
+.next-button {
+    height: 1.5rem;
+    width: 25%;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a363b; 
+    color: white;
+    font-weight: bold;
+}
+
+.next-button-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.next-button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.score-display {
+    color: white;
+    position: relative;
+    left: 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
